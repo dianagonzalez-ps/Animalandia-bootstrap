@@ -91,6 +91,40 @@ body{
 
 .card-title{
     color: var(--purple-color);
+    font-weight: 600;
+}
+
+.card-subtittle{
+    font-size: 18px;
+    color: var(--dark-color);
+    text-shadow: 2px 1px 3px var(--dark-color);
+    font-weight: 700;
+
+}
+
+.card-img-team{
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.card-title-vacunacion{
+    text-align: justify;
+}
+
+.card-text-vacunacion{
+    text-align: justify;
+}
+
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }
 
 footer{

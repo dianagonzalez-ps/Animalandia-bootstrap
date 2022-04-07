@@ -122,6 +122,7 @@ body{
 .formulario_contacto{
     background-color: rgb(152, 202, 231);
     border: 1.5px solid grey;
+    padding: 10px;
     margin-bottom: 50px;
     border-radius: 10px;
 }
@@ -135,9 +136,42 @@ body{
 
 .card-text-tips{
     text-align: center;
+}
+
+.formulario_login{
+    border: 1.5px solid #828288;
+    padding: 10px;
+    margin-top: 30px;
+}
+.logo-dash img{
+    max-width: 300px;
+}
+.img-login img{
+    align-content: center;
+    max-width: 350px;
+    margin-left: 45px;
+}
+
+.btn-login{
+    border: solid #191919;
+}
+
+.sect-dashboard{
+    display: flex;
+    justify-content: flex-end;
 
 }
 
+.sect-dashboard img{
+    border-radius: 50%;
+    border: solid var(--purple-color);
+    max-width: 150px;
+}
+
+.list-dashboard{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
 footer{
     background-image: url(../img/fondo.jpg);
 }
